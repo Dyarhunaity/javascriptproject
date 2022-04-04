@@ -21,7 +21,7 @@ I hope you had a wounderfull day . Thank you so much for trying out this amazing
 
 **You are the one with that option**
 
-* Names and account links to the amazing people who made this project :
+ Names and account links to the amazing people who made this project :
 
  Ibrahim tameme [GitHub](https://github.com/IbrahimTameme/Personal-repo "GitHub")
 
