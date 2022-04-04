@@ -1,6 +1,6 @@
 # javascriptproject
 
-In this project , my collegues and I made a web development quiz were you can challenge yourself  to this amazing , educational questions to prove to yourself and others that you can be 
+In this project , we made a web development quiz were you can challenge yourself  to this amazing , educational questions to prove to yourself and others that you can be 
 
 a successful web developer .
 
@@ -21,7 +21,7 @@ I hope you had a wounderfull day . Thank you so much for trying out this amazing
 
 **You are the one with that option**
 
-* Names and account links to the amazing people who helped me :
+* Names and account links to the amazing people who made this project :
 
  Ibrahim tameme [GitHub](https://github.com/IbrahimTameme/Personal-repo "GitHub")
 
