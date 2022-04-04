@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+*{
+    box-sizing: border-box;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(244, 244, 244);
+}
+#loginForm
+{
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin-top:150px;
+text-align: center;
+}
+.error-icon, .error-text{
+	display: none;
+}
+
+#piclogo {
+
+    display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            height: 150x;
+           
+}
+
+
+    input,
+input::-webkit-input-placeholder {
+    font-size: 10px;
+    line-height: 4;
+    width: 300px;
+    border-color: orange;
+    text-align: center;
+}
+
+
+
+
+    </style>
+
+</head>
+<body>
+    <form action="" method="get" id="loginForm">
+
+        <img src="https://scontent.famm11-1.fna.fbcdn.net/v/t1.15752-9/277212446_1671404836545196_5794000508194599925_n.png?_nc_cat=103&ccb=1-5&_nc_sid=ae9488&_nc_ohc=NqNPY0sf2eUAX_pt826&_nc_ht=scontent.famm11-1.fna&oh=03_AVKslm81pbsfQTovnL6NRbQr0oIfAFy4t0jec2jy--Anog&oe=62713DA3" alt="" id="piclogo">
+
+        <br>
+        <br>
+
+    <div class="field-group">
+
+        <label for="email"></label>
+
+        <input type="email"placeholder=" Email" id="email" name="email" required="true">
+
+        <img src="./icon-error.svg" class="error-icon" alt="error"  id="oneO">
+
+        <p class="error-text"  id="one">Invalid email</p>    
+
+      </div>
+      <br>
+      
+      <div class="field-group">
+
+        <label for="email"></label>
+
+        <input type="password" placeholder="Password" id="password" name="password" required="true">
+
+      
+        <img src="./icon-error.svg" class="error-icon" alt="error"  id="twoT">
+
+        <p class="error-text"  id="two">wrong password</p>        
+
+      </div>
+      <br>
+      <br>
+
+    <button style="background-color: orange; height: 40px; width: 50%; margin-left: 25%;margin-right: 25%; text-align: center; "type="button" onclick="getinfofromlocal()"><a id="butt2" > Log In</a></button>
+
+    </form>
+
+</body>
+
+<script src="./an.js"></script>
+
+</html>

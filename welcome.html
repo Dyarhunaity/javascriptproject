@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(5, 1fr);
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+            background-color: rgb(244, 244, 244);
+
+        }
+
+        #page1nav {
+            grid-area: 1 / 1 / 2 / 3;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            height: 100px;
+
+        }
+
+        #mainpage1 {
+            grid-area: 3 / 1 / 6 / 3;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            font-size:x-large;
+
+        }
+
+        #bigimage {
+            position: relative; 
+            top: -125px;
+            margin-left: -100px;
+            
+            
+            
+        }
+        
+        .button {
+  border-radius: 4px;
+  background-color: #ffffff;
+  border: none;
+  color: #ff7300;
+  text-align: center;
+  font-size: 28px;
+  padding: 10px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.button2 {
+    border-radius: 4px;
+  background-color: #ff7300;
+  border: none;
+  color: #fffffffe;
+  text-align: center;
+  font-size: 28px;
+  padding: 5px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+
+.button2 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button2 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button2:hover span {
+  padding-right: 25px;
+}
+
+.button2:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+  
+
+
+#h1 {
+    text-align: center;
+    font-size: larger;
+}
+
+
+
+    </style>
+</head>
+
+<body>
+    <nav id="page1nav">
+        <h2><span style="color: orange; text-decoration: line-through;">Coding </span> for life</h2>
+        <img src="https://media.discordapp.net/attachments/958746238436663396/959902799624294420/logo-removebg-preview_3.png"
+            alt="">
+    </nav>
+    <div id="h1">
+    <h1><span style="color: orange;">Welcome </span> Candidates</h1>
+    </div>
+
+    <div id="mainpage1">
+        <div>
+            <p>you will apply on one of these postions <br>
+
+                1- HTML
+                <br>
+                2- CSS
+                <br>
+                3-Javascript
+                <br>
+                You will have 10 minutes to answer the questions about the topic you choose.<br>
+                <span style="color: orange;"> May the odds be ever in your favor</span>
+            </p>
+            <p><span style="color: red;">Estimated time: 10 minutes</span></p>
+
+            <button class="button"><span>Register </span></button>
+            <button class="button2"><span>Login</span></button>
+            
+        </div>
+        
+        
+        <div id="bigimage">
+        
+        <img src="https://scontent.famm11-1.fna.fbcdn.net/v/t1.15752-9/277823394_1347734072378694_5456963094981240790_n.png?_nc_cat=106&ccb=1-5&_nc_sid=ae9488&_nc_ohc=aEbPw-Qk82AAX_N5MA8&_nc_ht=scontent.famm11-1.fna&oh=03_AVJ9xBSsnTtn4631CqnioqHGAL-g5jXiNLFf0k5Yy6P4FQ&oe=626E94D3" width="500" height="560"
+            alt=""> 
+        </div>
+    </body>
+</html>
