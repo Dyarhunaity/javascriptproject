@@ -1,4 +1,3 @@
-
 (function(){
     // Functions
     function buildQuiz(){
@@ -85,7 +84,7 @@
         previousButton.style.display = 'inline-block';
       }
       if(currentSlide === slides.length-1){
-        nextButton.style.display = 'none';
+        nextButton.style.display = 'none';    
         submitButton.style.display = 'inline-block';
       }
       else{
